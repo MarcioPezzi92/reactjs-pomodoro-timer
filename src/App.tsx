@@ -4,7 +4,7 @@ import { Router } from './Router'
 
 // STYLES
 import { defaultTheme } from './styles/themes/default.theme'
-import { GlobalStyle } from './styles/global.style'
+import { GlobalStyles } from './styles/global.styles'
 
 export function App() {
   return (
@@ -13,7 +13,7 @@ export function App() {
         <BrowserRouter>
           <Router />
         </BrowserRouter>
-        <GlobalStyle />
+        <GlobalStyles />
       </ThemeProvider>
     </>
   )
