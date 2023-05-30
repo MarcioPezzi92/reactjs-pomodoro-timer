@@ -1,10 +1,10 @@
 import { Scroll, Timer } from 'phosphor-react'
-import { HeaderContainer } from './header-component.styles'
+import { HeaderContainer } from './styles'
 
 import TomatoIllustration from '../../assets/images/tomato-illustration.svg'
 import { NavLink } from 'react-router-dom'
 
-export function HeaderComponent() {
+export function Header() {
   return (
     <HeaderContainer>
       <img src={TomatoIllustration} alt="Logo image" />
